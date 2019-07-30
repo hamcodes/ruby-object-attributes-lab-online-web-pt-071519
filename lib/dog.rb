@@ -12,3 +12,4 @@ class Dog
 end
 fido = Dog.new("Fido")
 fido.instance_variable_set(:@name, "Fido")
+fido.instance_variable_get(:@name)
