@@ -10,4 +10,4 @@ class Dog
     @name = new_name
   end
 end
-name.instance_variable_set(:@name)
+fido = Dog.new 
