@@ -11,4 +11,4 @@ class Dog
   end
 end
 fido = Dog.new("Fido")
-
+fido..instance_variable_set(:@name, "Fido")
